@@ -1,0 +1,24 @@
+In the late 1970s, two projects began independently, with the same goal:
+to define a unifying standard for the architecture of networking systems.
+One was administered by the International Organization for Standardization (ISO),
+while the other was undertaken by the International Telegraph and Telephone Consultative Committee,
+or CCITT (the abbreviation is from the French version of the name).
+These two international standards bodies each developed a document that defined similar networking models.
+
+In 1983, these two documents were merged to form a standard called The Basic Reference Model for Open Systems Interconnection.
+The standard is usually referred to as the Open Systems Interconnection Reference Model, the OSI Reference Model, or simply the OSI model.
+It was published in 1984 by both the ISO, as standard ISO 7498, and the renamed
+CCITT (now called the Telecommunications Standardization Sector of the International Telecommunication Union or ITU-T) as standard X.200.
+
+OSI had two major components, an abstract model of networking, called the Basic Reference Model or seven-layer model,
+and a set of specific protocols.
+
+The concept of a seven-layer model was provided by the work of Charles Bachman at Honeywell Information Services.
+Various aspects of OSI design evolved from experiences with the ARPANET, NPLNET, EIN, CYCLADES network and the work in IFIP WG6.1.
+The new design was documented in ISO 7498 and its various addenda. In this model, a networking system was divided into layers.
+Within each layer, one or more entities implement its functionality.
+Each entity interacted directly only with the layer immediately beneath it, and provided facilities for use by the layer above it.
+
+Protocols enable an entity in one host to interact with a corresponding entity at the same layer in another host.
+Service definitions abstractly described the functionality provided to an (N)-layer by an (N-1) layer,
+where N was one of the seven layers of protocols operating in the local host.

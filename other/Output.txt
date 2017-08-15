@@ -1,0 +1,93 @@
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.main.FPMain INFO:				Time	Node/Medium	Event 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.node.Node INFO:				0	ND1		Starts JOB 2010 KB 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.layers.TransportLayer INFO:		0	ND1		Fragments JOB1 into 1 parts each of 656 KB 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.layers.TransportLayer INFO:		0	ND1		Starts Transmitting J1F1 (Frame 0 of Job ) to 0A0A140C 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000207A3E| 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.711 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000107A2E| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	0000| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		----------------------------------------------- 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|4A| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0000|0020| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|02| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140A| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140C| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|C487| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.PhysicalLayer INFO:		0	MD1		Enters BUSY state 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.TransportLayer INFO:		16	ND1		Finishes Transmitting 656 KB 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.DataLinkLayer INFO:		16	ND4		Receives Packet (Dropped Frame - 800000107A2E ) 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.TransportLayer INFO:		0	ND1		Starts Transmitting J1F1 (Frame 1 of Job ) to 0A0A140C 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.DataLinkLayer INFO:		16	ND2		Receives Packet (Accepted Frame - 800000107A2E , Checksum: Check, CRC: Check) 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000207A3E| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000207A3E| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		----------------------------------------------------------------------------------- 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000107A2E| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000107A2E| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	0000| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	0000| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		----------------------------------------------- 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		----------------------------------------------- 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|90| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|4A| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0000|9002| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0000|0020| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|02| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|02| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140A| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140A| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140C| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140C| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|A178| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|C487| 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.PhysicalLayer INFO:		0	MD1		Enters BUSY state 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.TransportLayer INFO:		16	ND1		Finishes Transmitting 656 KB 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.DataLinkLayer INFO:		16	ND4		Receives Packet (Dropped Frame - 800000107A2E ) 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.layers.DataLinkLayer INFO:		16	ND2		Receives Packet (Accepted Frame - 800000107A2E , Checksum: Check, CRC: Check) 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.727 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000207A3E| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	800000107A2E| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		|	0000| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.DataLinkLayerFrame INFO: 		----------------------------------------------- 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|90| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0000|9002| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|00|00|02| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140A| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|0A0A140C| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		|A178| 
+2015-11-10 17:11:29.742 Logging Service edu.fit.cs.cn.protocol.NetworkLayerPacket INFO: 		------------------------------------------------------------------------------------ 

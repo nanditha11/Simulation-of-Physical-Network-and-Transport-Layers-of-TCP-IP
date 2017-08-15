@@ -1,0 +1,4 @@
+TX_CHAR 1
+MTU 250
+100 1 ext/testfiles/A2_inputfile_1.txt 2
+4000 1 ext/testfiles/A2_inputfile_2.txt 4

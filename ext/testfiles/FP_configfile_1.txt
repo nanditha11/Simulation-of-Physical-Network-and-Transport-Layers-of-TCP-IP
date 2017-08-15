@@ -1,0 +1,51 @@
+SECTION_MEDIUM_START#-------------------------
+NAME: MD1
+MD1_MTU: 1400    #in bytes
+NAME: MD2
+MD2_MTU: 1400    #in bytes
+NAME: MD3
+MD3_MTU: 1500    #in bytes
+SECTION_MEDIUM_END #-------------------------
+SECTION_NODE_START #-------------------------
+NAME: ND1
+ND1_IF1_IP: 10.10.20.10
+ND1_IF1_MASK: 255.255.255.0
+ND1_IF1_ETHER: 80 00 00 20 7A 3E
+ND1_IF1_BANDWIDTH: 10              #in KBps   (not MBps)
+ND1_IF1_CONNECTION: MD1 
+
+NAME: ND4
+ND4_IF1_IP: 10.10.20.11
+ND4_IF1_MASK: 255.255.255.0
+ND4_IF1_ETHER: 80 00 00 22 7A 5E
+ND4_IF1_BANDWIDTH: 10              #in KBps   (not MBps)
+ND4_IF1_CONNECTION: MD1
+
+NAME: ND2
+ND2_IF1_IP: 10.10.20.12
+ND2_IF1_MASK: 255.255.255.0
+ND2_IF1_ETHER: 80 00 00 10 7A 2E
+ND2_IF1_BANDWIDTH: 10              #in KBps   (not MBps)
+ND2_IF1_CONNECTION: MD1 
+ND2_IF2_IP: 10.10.40.12
+ND2_IF2_MASK: 255.255.255.0
+ND2_IF2_ETHER: 80 00 00 20 7B 0E
+ND2_IF2_BANDWIDTH: 10              #in KBps   (not MBps)
+ND2_IF2_CONNECTION: MD2 
+
+NAME: ND3
+ND3_IF1_IP: 10.10.40.13
+ND3_IF1_MASK: 255.255.255.0
+ND3_IF1_ETHER: 80 00 00 20 7A 4E
+ND3_IF1_BANDWIDTH: 10              #in KBps   (not MBps)
+ND3_IF1_CONNECTION: MD2 
+SECTION_NODE_END #-------------------------
+
+SECTION_DATA_START #-------------------------
+
+# JOB number, at time 0 ms, node ND1 starts transmitting 100 Kbytes (not MBytes) to node N2
+#TIME NODE_SRC NODE_DEST FILE
+0	ND1	ND2	ext/testfiles/A2_inputfile_1.txt
+1000	ND1	ND4	ext/testfiles/A2_inputfile_1.txt             
+
+SECTION_DATA_END #-------------------------

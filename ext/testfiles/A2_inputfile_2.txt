@@ -1,0 +1,2 @@
+The Open Systems Interconnection model (OSI Model) is a conceptual model that characterizes and 
+standardizes the communication functions.
